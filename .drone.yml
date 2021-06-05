@@ -6,6 +6,7 @@ name: Umi
 steps: 
   - 
     commands: 
+      - "git clone https://github.com/Official-Ayrton990/android_kernel_xiaomi_sm8250.git -b QK-eleven kernel"
       - "curl https://del.dog/raw/kernel_Quantic.sh | bash"
     environment: 
       TG_TOKEN: 
