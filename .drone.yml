@@ -6,7 +6,7 @@ name: Umi
 steps: 
   - 
     commands: 
-      - bash build.sh
+      - "curl https://del.dog/raw/kernel_Quantic.sh | bash"
     environment: 
       TG_TOKEN: 
         from_secret: BOT_TOKEN
